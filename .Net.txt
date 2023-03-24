@@ -1,0 +1,41 @@
+C# & .NET
+The difference between C# and .Net is
+C# is a Programming language
+.net is a framework, where we can build applications.
+
+C#: we have CLR
+the work of clr is to convert the code into an intermediate language(IL) and later on, it will convert it into a
+ Native language(computer language)
+
+* CLR is essentially an application that is sitting in the memory whose job is to translate the IL code into the
+ machine code and this process are called just-in-time compilation or JIT.
+
+When we are building an application using C#
+- The application consists of building blocks called classes, these         |   class class class class  |
+classes collaborate with each other at runtime and as a result the 
+the application provides some functionality.
+
+Class:
+ A class is a container that has the data and methods { In data we have attributes and functions which are 
+also called methods}  functions or methods that have behavior that does things for us, and data represent 
+the state of the application.  for ex:  think of a 
+                                                       car  - class
+
+                                                      make 
+                                                      model     } -   Attributes
+                                                      color   
+
+                                                      Start()
+                                                      Move()    } - methods
+
+Variable: A name was given to the storage location in the memory.
+constant: An immutable value.
+Naming conventions:
+Camel Case: firstName
+pasalCase: FirstName
+Hungarian Notation: strFirstName
+
+* In c# the keyword var makes the variable declaration easier,
+ instead of explicitly specifying the datatype, we can simply 
+write the var.
+ 
